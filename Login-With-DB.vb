@@ -4,7 +4,7 @@ Imports System.Data
 
 Public Class login
 
-    Dim strConn As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=basededados.mdb"
+    Dim strConn As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=DATABASE.mdb"
     Dim oConn As New OleDb.OleDbConnection
     Dim AdminCommand As OleDbCommand
     Dim AdminAdapter As OleDbDataAdapter
